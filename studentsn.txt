@@ -1,0 +1,36 @@
+5
+Andrew Appleseed
+Mon 4:00pm
+123 E Main St.
+555-0158
+25.0
+avatars/man1.png
+0.0
+Betty Baker
+Tue 12:30pm
+5924 32nd St.
+555-0123
+25.0
+avatars/woman1.png
+50.0
+Charlie Coom
+Tue 1:30pm
+51 East Ave. PrettyLongTownName, USA 99999
+555-0987
+30.0
+avatars/kid1.png
+60.0
+Dennis Devonshire
+Tue 3:00pm
+1 Tiger Ln.
+555-0168
+30.0
+blank_face.png
+-30.0
+Emily Evans
+Wed 10:00am
+34 Chester Dr.
+555-0111
+25.0
+avatars/woman2.png
+0.0

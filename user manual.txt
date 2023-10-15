@@ -1,0 +1,51 @@
+Student Ledger User Manual
+by Paul Renaud
+
+This program will help you keep track of students who have paid or not paid for their lessons.
+
+The left side will show a list of students. You can click on a student to change the selection. You can add or delete students with the buttons below the list.
+
+To the left of the student list are up and down buttons to rearrange the selected student in the list.
+
+The right side will show the selected student's details, including balance. A positive balance means they paid ahead. A negative balance means they still owe.  There are buttons that let you Charge for a lesson, Receive payment, or Edit the student details. There is also a button to Save and Quit the program.
+
+When you first use the program, it will try to load from the default file. When you click Save and Quit, changes are automatically saved to the file, and the program ends. There is currently no way to change the default file, but it is saved as studentsn.txt.
+
+To add a student:
+  1. Click the New Student button.
+  2. Type in the information for the student, replacing the (new student) information that is there.
+    -All the fields are just text except Lesson cost and Balance. These must be numbers.
+    -Hint: You can enter multiple phone numbers by separating them with a comma. For example: 555-0187 (h), 555-0199 (m)
+    -There are no special date or time functions on Lesson day/time.
+    -The lesson cost is used for the Charge for lesson button. It defaults to 30.
+    -The balance will typically start at 0. A positive balance means they paid ahead. A negative balance means they owe.
+    -The profile picture only supports PNG and GIF images (I recommend PNG). If the image is too wide or tall it will automatically show it smaller.
+  3. When you've entered everything how you want, click OK.
+  4. The student will be added to the end of the list.
+
+The Charge for Lesson and Receive Payment buttons both open the same box, but have different fields prefilled for you.
+
+To bill a student for a lesson:
+  1. Click the student's name.
+  2. Click Charge for lesson. The bill will automatically be the lesson cost.
+  3. Make sure the cost is what you want.
+  (3.5 If they paid now, you can also enter it here.)
+  4. Click OK. The balance will be updated.
+
+Example #1:
+  Billy just had a lesson, and needs to be billed $30. Select Billy from the list and click Charge for lesson. 30.00 is prefilled for amount to bill. Click OK. Billy now shows a balance of -30.00. He still owes.
+
+Example #2:
+  Susan prepaid $120 for a whole month of lessons. She just took a lesson, and needs to be billed $30. Select Susan from the list (balance shows 120.00) and click Charge for lesson. 30.00 is prefilled for amount to bill. Click OK. Susan now shows a balance of 90.00 (paid ahead).
+
+Example #3:
+  Edgar just took a lesson, and needs to be billed $30. He is also paying at the same time. Select Edgar from the list and click Charge for lesson. 30.00 is prefilled for amount to bill. Go to receive payment field and also enter 30.00. Click OK. Edgar now shows a balance of 0.00.
+
+To receive payment:
+  1. Click the student's name.
+  2. Click Receive payment. This opens the transaction editor, like the other button.
+  3. The total amount due is prefilled as a payment. If nothing is due, it will prefill the cost of a lesson. Be sure to enter what they are actually paying.
+  4. Click OK. The balance will be updated.
+
+When finished, click Save and Quit. All the students will be saved to a file.
+NOTE: If you close the program with the X in the corner, IT WILL NOT SAVE.
